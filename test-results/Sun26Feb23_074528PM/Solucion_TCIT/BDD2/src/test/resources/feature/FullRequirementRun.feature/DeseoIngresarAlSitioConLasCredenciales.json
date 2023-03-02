@@ -1,0 +1,81 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^navego a la url de orangeHRM (.+)$",
+      "args": [
+        "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el userName para logearme (.+)$",
+      "args": [
+        "Admin"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago ingreso del password con errores (.+)$",
+      "args": [
+        "p"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en boton de login$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado navego a la url de orangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4075,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Cuando ingreso el userName para logearme Admin",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3631,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago ingreso del password con errores p",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2612,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en boton de login",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4583,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "scenario completed successfully. ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

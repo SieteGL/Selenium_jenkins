@@ -1,0 +1,104 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu de qualifications$",
+      "args": [],
+      "result": "FAILED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono add qualifications$",
+      "args": [],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el dato para company (.+)$",
+      "args": [
+        "${company}"
+      ],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^el dato para job title (.+)$",
+      "args": [
+        "${job-title}"
+      ],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^guardo las calificaciones$",
+      "args": [],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu de qualifications",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 20508,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='app']/div[1]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[10]/a (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'SIETEGL', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Marco\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52819/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9670db1b25fc83d2482223a7a6906045",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Cuando selecciono add qualifications",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el dato para company ${company}",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y el dato para job title ${job-title}",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y guardo las calificaciones",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Error during test, please check the scenario and check the images: ",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='app']/div[1]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[10]/a (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'SIETEGL', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Marco\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52819/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9670db1b25fc83d2482223a7a6906045\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat com.automated.basepage.BasePage.find(BasePage.java:40)\r\n\tat com.automated.basepage.BasePage.click(BasePage.java:48)\r\n\tat com.automated.test.steps.AdditionalDataStep.clickQualifications(AdditionalDataStep.java:87)\r\n\tat ✽.ingreso al menu de qualifications(file:///D:/solucion%20TCIT/Solucion_TCIT/src/test/resources/feature/FullRequirementRun.feature:43)\r\n"
+}

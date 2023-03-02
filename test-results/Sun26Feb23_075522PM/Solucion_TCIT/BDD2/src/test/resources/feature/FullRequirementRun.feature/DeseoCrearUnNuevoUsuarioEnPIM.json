@@ -1,0 +1,177 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu de PIM$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono add employee$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el nombre (.+)$",
+      "args": [
+        "Juan"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^agrego el segundo nombre (.+)$",
+      "args": [
+        "Sebastian"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el apellido (.+)$",
+      "args": [
+        "Alvarez"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^luego habilito el radio button$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el username (.+)$",
+      "args": [
+        "Jalvarez#0."
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^tambien creo una contraseña con la combinacion requerida (.+)$",
+      "args": [
+        "Jalvarez#0."
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^luego confirmo mi contraseña (.+)$",
+      "args": [
+        "Jalvarez#0."
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el save button$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu de PIM",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2297,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Cuando selecciono add employee",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1956,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el nombre Juan",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1604,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y agrego el segundo nombre Sebastian",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1605,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el apellido Alvarez",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1613,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y luego habilito el radio button",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1552,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el username Jalvarez#0.",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1613,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y tambien creo una contraseña con la combinacion requerida Jalvarez#0.",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1620,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y luego confirmo mi contraseña Jalvarez#0.",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1609,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el save button",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5058,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "scenario completed successfully. ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

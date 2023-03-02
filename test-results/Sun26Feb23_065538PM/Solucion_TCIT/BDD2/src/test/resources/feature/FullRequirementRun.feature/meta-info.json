@@ -1,0 +1,83 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 6.0,
+        "name": "Deseo ingresar al sitio con las credenciales",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoIngresarAlSitioConLasCredenciales"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677448522994,
+      "duration": 15679,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 12.0,
+        "name": "Deseo ingresar al sitio con las credenciales",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoIngresarAlSitioConLasCredenciales2"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677448538678,
+      "duration": 11064,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "first-name": "Juan",
+          "last-name": "Alvarez",
+          "middle-name": "Sebastian",
+          "password": "Jalvarez#0.",
+          "userName": "Jalvarez#0."
+        }
+      ],
+      "metaData": {
+        "DataFile": "src/test/resources/data/data.xlsx",
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 20,
+        "name": "Deseo crear un nuevo usuario en PIM",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoCrearUnNuevoUsuarioEnPIM",
+        "SheetName": "addEmployee"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677448549747,
+      "duration": 21968,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

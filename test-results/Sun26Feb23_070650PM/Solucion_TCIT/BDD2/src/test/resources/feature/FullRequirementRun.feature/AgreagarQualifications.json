@@ -1,0 +1,94 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu de qualifications$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono add qualifications$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el dato para company (.+)$",
+      "args": [
+        "${company}"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^el dato para job title (.+)$",
+      "args": [
+        "${job-title}"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^guardo las calificaciones$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu de qualifications",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1981,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Cuando selecciono add qualifications",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1550,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el dato para company ${company}",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1603,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y el dato para job title ${job-title}",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1599,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y guardo las calificaciones",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1539,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "scenario completed successfully. ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,148 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu Admin$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el userName para realizar la busqueda$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el boton de search$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono el elemento de la tabla$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^activo el change password$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso la nueva password (.+)$",
+      "args": [
+        "M2a9r7c801#0."
+      ],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^luego confirmo la password (.+)$",
+      "args": [
+        "M2a9r7c801#0."
+      ],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el boton de save$",
+      "args": [],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu Admin",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2311,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el userName para realizar la busqueda",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5088,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el boton de search",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1560,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y selecciono el elemento de la tabla",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1984,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y activo el change password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1541,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso la nueva password M2a9r7c801#0.",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y luego confirmo la password M2a9r7c801#0.",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el boton de save",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Error during test, please check the scenario and check the images: ",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=110.0.5481.178)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'SIETEGL', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0479af55ab0fbd1e2dc3c81d79114a83, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Marco\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57387/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0479af55ab0fbd1e2dc3c81d79114a83",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=110.0.5481.178)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'SIETEGL', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0479af55ab0fbd1e2dc3c81d79114a83, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Marco\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57387/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0479af55ab0fbd1e2dc3c81d79114a83\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)\r\n\tat com.automated.test.steps.hooks.Hooks.afterEveryStep(Hooks.java:37)\r\n"
+}

@@ -1,0 +1,111 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu de emergency contacts$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono add contact$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el dato del contacto (.+)$",
+      "args": [
+        "Juliana"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^agrego la relacion con el empleado (.+)$",
+      "args": [
+        "Sister"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el numero mobil (.+)$",
+      "args": [
+        "+56-954172361"
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^guardo el contacto$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu de emergency contacts",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2057,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Cuando selecciono add contact",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1551,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el dato del contacto Juliana",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1591,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y agrego la relacion con el empleado Sister",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1597,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el numero mobil +56-954172361",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1606,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y guardo el contacto",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1544,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "scenario completed successfully. ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

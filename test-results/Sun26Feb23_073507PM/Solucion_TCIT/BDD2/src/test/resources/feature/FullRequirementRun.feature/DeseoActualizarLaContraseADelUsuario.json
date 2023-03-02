@@ -1,0 +1,139 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu Admin$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el userName para realizar la busqueda$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el boton de search$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono el elemento de la tabla$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^activo el change password$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso la nueva password (.+)$",
+      "args": [
+        "M2a9r7c801#0."
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^luego confirmo la password (.+)$",
+      "args": [
+        "M2a9r7c801#0."
+      ],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el boton de save$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu Admin",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2342,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el userName para realizar la busqueda",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5096,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el boton de search",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1563,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y selecciono el elemento de la tabla",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1966,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y activo el change password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1545,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso la nueva password M2a9r7c801#0.",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1611,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y luego confirmo la password M2a9r7c801#0.",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1607,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el boton de save",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1540,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "scenario completed successfully. ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

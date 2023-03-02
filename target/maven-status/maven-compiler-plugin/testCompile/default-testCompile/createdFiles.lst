@@ -1,0 +1,7 @@
+com\automated\test\runner\Runner.class
+com\automated\test\steps\hooks\Hooks.class
+com\automated\test\steps\AbstractSteps.class
+com\automated\test\steps\EditPasswordStep.class
+com\automated\test\steps\AdditionalDataStep.class
+com\automated\test\steps\LoginStep.class
+com\automated\test\steps\NewEmployeeStep.class

@@ -1,0 +1,170 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 6.0,
+        "name": "Deseo ingresar al sitio con las credenciales",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoIngresarAlSitioConLasCredenciales"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677449916933,
+      "duration": 15507,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 12.0,
+        "name": "Deseo ingresar al sitio con las credenciales",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoIngresarAlSitioConLasCredenciales2"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677449932444,
+      "duration": 11831,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "first-name": "Juan",
+          "last-name": "Alvarez",
+          "middle-name": "Sebastian",
+          "password": "Jalvarez#0.",
+          "userName": "Jalvarez#0."
+        }
+      ],
+      "metaData": {
+        "DataFile": "src/test/resources/data/data.xlsx",
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 20.0,
+        "name": "Deseo crear un nuevo usuario en PIM",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoCrearUnNuevoUsuarioEnPIM",
+        "SheetName": "addEmployee"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677449944280,
+      "duration": 21829,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "amount": "1450000.0",
+          "company": "ITTSantiago",
+          "component-salary": "Full salary",
+          "job-title": "Developer",
+          "mobil": "+56-954172361",
+          "name-contact": "Juliana",
+          "relationship": "Sister"
+        }
+      ],
+      "metaData": {
+        "DataFile": "src/test/resources/data/data.xlsx",
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 34.0,
+        "name": "Quiero agregar contacto de emergencia, salario y calificaciones",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "QuieroAgregarContactoDeEmergenciaSalarioYCali",
+        "SheetName": "additionalData"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677449966116,
+      "duration": 20611,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 42.0,
+        "name": "Agreagar qualifications",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "AgreagarQualifications"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677449986730,
+      "duration": 20645,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "new-password": "M2a9r7c801#0."
+        }
+      ],
+      "metaData": {
+        "DataFile": "src/test/resources/data/data.xlsx",
+        "Feature": "Running full requirements",
+        "groups": [
+          "full-requirements",
+          "AfterCapture"
+        ],
+        "line": 51,
+        "name": "Deseo actualizar la contraseña del usuario",
+        "reference": "src/test/resources/feature/FullRequirementRun.feature",
+        "resultFileName": "DeseoActualizarLaContraseADelUsuario",
+        "SheetName": "changePassword"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677450007378,
+      "duration": 18957,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

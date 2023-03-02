@@ -1,0 +1,30 @@
+{
+  "total": 6,
+  "pass": 5,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "src/test/resources/feature/FullRequirementRun.feature"
+  ],
+  "envInfo": {
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "27-Feb-2022 14:37:01",
+      "qaf-Version": "3.1"
+    },
+    "run-parameters": {},
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "11.0.17",
+      "os.arch": "amd64",
+      "host": "SieteGL",
+      "os.name": "Windows 10",
+      "user.name": "Marco",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1677449194778,
+  "endTime": 1677449294648
+}

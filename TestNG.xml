@@ -1,0 +1,7 @@
+<suite name="Sample suite">
+    <test name="learn Jenkins">
+    <classes>
+        <class name="com.automated.test.runner.Runner"></class>
+    </classes>
+    </test>
+</suite>

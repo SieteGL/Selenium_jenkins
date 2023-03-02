@@ -1,0 +1,44 @@
+{
+  "reports": [
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_075739PM",
+      "startTime": 1677452242970
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_075522PM",
+      "startTime": 1677452106415
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_074528PM",
+      "startTime": 1677451511640
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_073507PM",
+      "startTime": 1677450890609
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_071852PM",
+      "startTime": 1677449916009
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_070650PM",
+      "startTime": 1677449193834
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_065833PM",
+      "startTime": 1677448696536
+    },
+    {
+      "name": "Solucion_TCIT",
+      "dir": "test-results/Sun26Feb23_065538PM",
+      "startTime": 1677448521999
+    }
+  ]
+}

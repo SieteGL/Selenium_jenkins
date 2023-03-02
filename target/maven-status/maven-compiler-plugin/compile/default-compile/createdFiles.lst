@@ -1,0 +1,6 @@
+com\automated\basepage\pages\NewEmployeePage.class
+com\automated\basepage\context\Context.class
+com\automated\basepage\pages\EditPasswordPage.class
+com\automated\basepage\pages\LoginPage.class
+com\automated\basepage\pages\AdditionalDataPage.class
+com\automated\basepage\BasePage.class

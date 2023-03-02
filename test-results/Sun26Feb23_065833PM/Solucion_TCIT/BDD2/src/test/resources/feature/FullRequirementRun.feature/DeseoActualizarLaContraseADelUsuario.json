@@ -1,0 +1,149 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "^ingreso al menu Admin$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso el userName para realizar la busqueda$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el boton de search$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^selecciono el elemento de la tabla$",
+      "args": [],
+      "result": "PASSED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^activo el change password$",
+      "args": [],
+      "result": "FAILED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^ingreso la nueva password (.+)$",
+      "args": [
+        "M2a9r7c801#0."
+      ],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^luego confirmo la password (.+)$",
+      "args": [
+        "M2a9r7c801#0."
+      ],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "^hago click en el boton de save$",
+      "args": [],
+      "result": "SKIPPED",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Dado ingreso al menu Admin",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2360,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "E ingreso el userName para realizar la busqueda",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5093,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el boton de search",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1553,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y selecciono el elemento de la tabla",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1980,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y activo el change password",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 20098,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='app']/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[5]/div/div[2]/div/label/span/i (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'SIETEGL', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Marco\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51938/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 71219052442bdb30d22baeff267df854",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "E ingreso la nueva password M2a9r7c801#0.",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y luego confirmo la password M2a9r7c801#0.",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Y hago click en el boton de save",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Error during test, please check the scenario and check the images: ",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='app']/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[5]/div/div[2]/div/label/span/i (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'SIETEGL', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Marco\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51938/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 71219052442bdb30d22baeff267df854\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat com.automated.basepage.BasePage.find(BasePage.java:40)\r\n\tat com.automated.basepage.BasePage.click(BasePage.java:48)\r\n\tat com.automated.test.steps.EditPasswordStep.clickChangePassword(EditPasswordStep.java:36)\r\n\tat ✽.activo el change password(file:///D:/solucion%20TCIT/Solucion_TCIT/src/test/resources/feature/FullRequirementRun.feature:56)\r\n"
+}
