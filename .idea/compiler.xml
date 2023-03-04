@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Solucion_TCIT" />
+        <module name="selenium-cucumber" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-project" target="1.5" />
+      <module name="Solucion_TCIT" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

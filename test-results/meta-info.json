@@ -1,6 +1,16 @@
 {
   "reports": [
     {
+      "name": "try",
+      "dir": "test-results/Sat4Mar23_042145AM",
+      "startTime": 1677914501156
+    },
+    {
+      "name": "try",
+      "dir": "test-results/Sat4Mar23_035535AM",
+      "startTime": 1677912934279
+    },
+    {
       "name": "Solucion_TCIT",
       "dir": "test-results/Sun26Feb23_075739PM",
       "startTime": 1677452242970

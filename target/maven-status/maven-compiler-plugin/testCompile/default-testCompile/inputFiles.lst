@@ -1,7 +1,7 @@
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\steps\EditPasswordStep.java
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\steps\LoginStep.java
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\runner\Runner.java
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\steps\AdditionalDataStep.java
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\steps\NewEmployeeStep.java
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\steps\AbstractSteps.java
-D:\solucion TCIT\Solucion_TCIT\src\test\java\com\automated\test\steps\hooks\Hooks.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\runner\Runner.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\steps\LoginStep.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\steps\AdditionalDataStep.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\steps\NewEmployeeStep.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\steps\hooks\Hooks.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\steps\EditPasswordStep.java
+C:\Users\Marco\Desktop\try\src\test\java\com\automated\test\steps\AbstractSteps.java
