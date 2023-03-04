@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <reportName>Test Automation Report</reportName>
+        <documentTitle>Test Automation Report</documentTitle>
+        <encoding>UTF-8</encoding>
+        <theme>dark</theme>
+        <autoCreateRelativePathMedia>true</autoCreateRelativePathMedia>
+    </configuration>
+</extentreports>
