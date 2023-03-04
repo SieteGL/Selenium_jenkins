@@ -94,8 +94,8 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>My Project Name</projectName>
-                            <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                            <projectName>Selenium_cucumber</projectName>
+                            <outputDirectory>${project.build.directory}/report</outputDirectory>
                             <jsonFiles>
                                 <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                             </jsonFiles>
