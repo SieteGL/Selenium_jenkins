@@ -83,6 +83,9 @@
                                 <include>**/*Test.java</include>
                             </includes>
                             <argLine>-Dcucumber.options="--tags @full-requirements"</argLine>
+                            <systemPropertyVariables>
+                                <cucumber.output.json>true</cucumber.output.json>
+                            </systemPropertyVariables>
                         </configuration>
                     </execution>
                 </executions>
