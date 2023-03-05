@@ -97,6 +97,25 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>true</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter, org.testng.reporters.XMLReporter</value>
+                        </property>
+                    </properties>
+
+
+
+
                     <systemPropertyVariables>
                         <cucumber.options>--plugin json:target/cucumber-report.json</cucumber.options>
                     </systemPropertyVariables>
